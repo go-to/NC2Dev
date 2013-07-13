@@ -1,0 +1,11 @@
+<{strip}>
+<div class="outerdiv">
+	<div>
+		<{$lang.balus_destroy_explain|smarty:nodefaults}>
+	</div>
+	<div class="balus_destroy_btn_outer">
+		<input class="balus_destroy_btn" type="button" value="<{$lang.balus_destroy_btn|smarty:nodefaults}>" onclick="balusCls['<{$id}>'].destroy('<{$lang.balus_destroy_confirm_mes|smarty:nodefaults}>'); return false;" />
+	</div>
+</div>
+<{include file="../balus_script.html"}>
+<{/strip}>
